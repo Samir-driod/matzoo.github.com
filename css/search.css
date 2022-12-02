@@ -1,0 +1,29 @@
+
+.ui-menu {
+    border-radius: 0 0 6px 6px;
+    list-style:none;
+    width: 300px;
+    
+    background-image: url(../img/bgw90.png);
+    
+}
+.ui-menu .ui-menu-item {
+    font-family: Work Sans;
+    font-size:13pt;
+    z-index: 2000;
+    cursor: pointer;
+    margin-left:-40px;
+     
+}
+.ui-menu-item {
+    padding: 2px 8px;
+   
+     color:#333;
+}
+.ui-menu-item:hover {
+    background-color: #D9D5C9;
+    
+}
+.ui-autocomplete {
+    z-index: 2000;
+}

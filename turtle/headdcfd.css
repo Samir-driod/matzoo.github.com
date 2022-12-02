@@ -1,0 +1,329 @@
+#scene {
+    width:500px;
+    height: 250px;
+    position: relative;
+    background-image: url(bg.png);
+    background-color: #DDD;
+    margin:10px auto;
+    border-radius:4px;
+    overflow: hidden;
+
+}
+#scene div {
+    width:50px;
+    height:50px;
+    float: left;
+    position: absolute;
+}
+#scene div.odd {
+    background-image: url(xb.png);
+    border-radius: 4px;
+}
+
+#scene.scene1 div.odd, #scene.scene6 div.odd, #scene.hippo.scene2 div.odd, #scene.hippo.scene7 div.odd {
+    background-color: #C63DA9;
+    border: 1px solid #ad248f;
+}
+#scene.scene2 div.odd, #scene.scene7 div.odd, #scene.hippo.scene1 div.odd, #scene.hippo.scene6 div.odd {
+    background-color: #1C8EBF;
+    border: 1px solid #0c74a0;
+}
+#scene.scene3 div.odd, #scene.scene8 div.odd {
+    background-color: #398939;
+    border: 1px solid #287a28;
+}
+#scene.scene4 div.odd, #scene.scene9 div.odd {
+    background-color: #c13041;
+    border: 1px solid #bc0f26;
+}
+#scene.scene5 div.odd, #scene.scene10 div.odd {
+    background-color: #E5601D;
+    border: 1px solid #c94b0c;
+}
+#scene.blue {
+    background-image: url(blue.jpg);
+}
+#scene.blue div.odd {
+    background-image: url(bluestone.jpg);    
+}
+#scene div#tuti {
+    z-index: 10;
+}
+
+
+
+#frame, #framep {
+    position: relative;
+}
+#frame div, #framep div { 
+    margin: 1px; 
+    float: left; 
+    width: 60px;
+    height: 60px; }
+
+.ui-state-highlight { background-color: #eff9db; border:1px solid #d3eaa4; border-radius: 4px; }
+.fa.s17 {
+    font-size: 17pt;
+}
+.marginr1 {
+    margin: 0 2px 2px 0 ;
+}
+#zadanie.program {
+    /*background-color: #AAA;
+    border:7px solid #888; 
+    color:#FFF;*/
+    border-radius:3px;
+    margin:0 1%;
+    font-size:13pt;
+    font-family: helveticaneueb, Oswald;
+    padding: 0 10px;
+}
+#workspace {
+    background-color: #FAFAFA;
+    border: 1px solid #888;
+    border-top:0;
+    border-radius:0 0 4px 4px;
+
+}
+.workspace , .workspacep{
+    background-color: #FFF;
+    font-size:9pt;
+    height: 266px;
+    color: #000;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    z-index: 0;
+    padding-right: 80px;
+    overflow: hidden;
+    border-radius:0 0 4px 4px;
+}
+
+.blok-big {
+    height: 60px;
+    line-height: 50px;
+    width: 60px;
+    text-align: center;
+    font-size: 34pt;
+    padding: 2px;
+}
+.blok-biggl {
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 28pt;
+    padding: 2px;
+}
+.modal-header {
+    overflow: hidden;
+    border:0;
+}
+.arial {
+    font-family: Arial !important;
+    font-size:9pt !important;
+}
+#frame .absolute-bottom, #framep .absolute-bottom {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 20pt;
+    padding: 16px 18px;
+    background-color: #EEE;
+    color: #444;
+    width: 66px;
+    height: 66px;
+    border-radius: 0 0 0 2px;
+}
+
+.trash-all {
+    font-size: 9pt;
+    padding: 4px 3px 4px 4px;
+    background-color: #CCC;
+    display: block;
+    font-weight: normal;
+    margin-top: 10px;
+    border-radius:1px;
+}
+.trash-all:hover {
+    background-color:#BBB;
+}
+.down-buttons {
+        padding: 4px 45px;
+}
+.down-buttons div {
+    margin-right: 1px;
+    margin-left: 4px;
+
+}
+.nav-tabs > li a {
+    color:#333;
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #DDD;
+    border: 1px solid #888;
+    border-bottom: 1px solid #DDD;
+}
+.nav-tabs {
+    border-bottom: 1px solid #888;
+}
+#bloki {
+    line-height: 240%;
+    padding: 10px;
+    color:#000;
+    font-size:12pt;
+    text-align: right;
+}
+#hero_right, #hero_left, #hero_front, #hero_back {
+    display: none;
+} 
+.drag {
+    z-index: 2;
+}
+#console {
+    background-color: #FFF;
+    border: 1px solid #888;
+    padding:10px;border-top:0;
+    border-radius:0 0 4px 4px;
+}
+.console, .consolep {
+    background-color: #EEE;
+    font-family: monospace;
+    font-size:9pt;
+    height: 180px;
+    overflow: scroll;
+    color: #000;
+    text-align: left;
+    padding: 2%;
+    border-radius:0 0 4px 4px;
+
+}
+.consolep {
+    height: 120px;
+}
+.block-successS {
+    background-image: url(anok.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    transform: rotate(45deg);
+}
+.block-success {
+    background-image: url(old_basket.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block-apple {
+    background-image: url(apple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block-apple-success {
+    background-image: url(apple_inbasket.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block-hipek-success {
+    background-image: url(hipek_success.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block-item {
+    background-image: url(leaf.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block-item-shadow {
+    background-image: url(leaf_shadow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hippo .block-success {
+    background-image: url(water.png);
+    background-size: 100%;
+}
+
+.hidden {
+    display: none;
+}
+.svg-turtle {
+
+    margin-left: 50%;
+    border:1px solid #eee;
+    background-image: url(background.html);
+}
+#head {
+    transform: translateY(-2px);
+    animation-name: turtle-head;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes turtle-head {
+    50% {
+        transform: translateY(2px);
+    }
+}
+
+
+@media (max-width: 400px) {
+    #scene {
+        width:300px;
+        background-size: 60px;
+        height: 150px;
+    }
+
+    #scene div, #scene img {
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+    }
+    #content0 {
+        padding: 0;
+    }
+    #zadanie.program {
+        padding: 0 2px;
+    }
+    .blok-big, #frame div, #framep div, .blok-biggl {
+        width:40px;
+        height: 40px;
+        font-size: 24pt;
+        line-height: 24pt;
+    }
+    #bloki img, #frame img, #framep img {
+        width: 36px;
+        height: 36px;
+    }
+    #bloki {
+        padding: 4px;
+    }
+    #frame .absolute-bottom, #framep .absolute-bottom {
+        font-size: 18pt;
+
+padding: 10px 12px;
+
+background-color: #EEE;
+
+color: #444;
+
+width: 48px;
+
+height: 48px;
+    }
+    .workspace, .workspacep {
+        padding-right: 50px;
+        height: 180px;
+    }
+    .down-buttons {
+        padding: 4px;
+    }
+
+}
