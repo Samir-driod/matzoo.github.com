@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.matzoo.pl	TRUE	/	FALSE	1999999999	PHPSESSID	0mjqm75aga3853012pah972lgi
+
